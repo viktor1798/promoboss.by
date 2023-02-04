@@ -114,7 +114,6 @@ body {
   font-weight: 600;
   font-size: 55px;
   line-height: 55px;
-  
 }
 .description__text {
   font-style: normal;
@@ -141,9 +140,16 @@ body {
   justify-content: space-around;
 }
 .description__button-wallet {
-  padding: 14px 20px;
-  background-color:  rgb(241, 47, 186);
-  border-radius:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 255px;
+  width: 100%;
+
+  padding: 14px 0;
+  background-color: #f12fba;
+  border-radius: 10px;
 
   font-style: normal;
   font-weight: 400;
@@ -152,9 +158,17 @@ body {
   color: white;
 }
 .description__button-portfolio {
-  padding: 14px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 255px;
+  width: 100%;
+
+  padding: 14px 0;
+
   background-color: rgb(241, 47, 186);
-  border-radius:10px;
+  border-radius: 10px;
 
   font-style: normal;
   font-weight: 400;
@@ -169,7 +183,178 @@ body {
   align-items: center;
 }
 
+/* ==============================advantages================== */
+
+.main__advantages {
+  padding-bottom: 60px;
+}
+.advantages__container {
+  padding: 20px 60px;
+  border: 5px solid #372745;
+  border-radius: 15px;
+}
+.advantages__title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 39px;
+  line-height: 62px;
+}
+.advantages__enumeration {
+  display: flex;
+  padding: 15px 0 45px 0;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 20px;
+}
+.enumeration__box {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.enumeration__img {
+}
+.enumeration__text {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+/*=============================promopersonal======================= */
+
+.main__promopersonal {
+  padding-bottom: 80px;
+}
+.promopersonal__container {
+}
+.promopersona__title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 39px;
+  line-height: 62px;
+}
+.promopersonal__block {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.promopersonal__section-choice {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+}
+.section-choice__box {
+  width: 200px;
+  height: 265px;
+
+  border-radius: 15px;
+
+  background-image: url("../image/promo/promo.jpg");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border: 2px solid black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+
+  position: relative;
+}
+.section-choice__box:hover {
+  opacity: 0.6;
+}
+.section-choice__item {
+  text-align: center;
+
+  height: 60px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  width: 100%;
+  background-color: #2c183d;
+  opacity: 0.8;
+}
+.item__title-section-choice {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  position: absolute;
+  z-index: 1;
+  left: 6px;
+  bottom: 10px;
+  text-align: center;
+  /* opacity: 1; */
+}
+.item__button-section-choice {
+  display: none;
+}
+
+.table-advantages__table {
+  margin: 0 auto;
+  max-width: 760px;
+  width: 100%;
+  border: 1px dashed black;
+  /* схлопывание границы */
+  border-collapse: collapse;
+  /* выравнивает и делает одинаковыми ячейки границ */
+  table-layout: fixed;
+}
+.table__thead {
+  border: 1px solid white;
+}
+.table__tr {
+  border: 1px solid red;
+}
+.table__th {
+  border: 1px solid blue;
+
+  font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+color: #FFCFEC;
+}
+.table__tbody {
+  border: 1px solid green;
+}
+.table__td {
+  border: 1px solid orange;
+  text-align: center;
+
+}
+
+.table__tr:nth-child(even) {
+  background-color: #3f314d;
+}
+.table__tr:nth-child(odd) {
+  background-color: #2a1f33;
+}
+.table__td:first-child {
+  text-align: left;
+
+  width: 600px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+}
+.table__th:first-child {
+  text-align: left;
+}
+
+
+
+
 
 .footer {
-    background-color:  #372745;
 }
