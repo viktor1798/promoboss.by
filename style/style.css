@@ -297,38 +297,34 @@ body {
   display: none;
 }
 
+/* ================================ table ============================================ */
+
 .table-advantages__table {
   margin: 0 auto;
   max-width: 760px;
   width: 100%;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   /* схлопывание границы */
   border-collapse: collapse;
   /* выравнивает и делает одинаковыми ячейки границ */
   table-layout: fixed;
 }
-.table__thead {
-  border: 1px solid white;
-}
-.table__tr {
-  border: 1px solid red;
-}
 .table__th {
-  border: 1px solid blue;
-
-  font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-color: #FFCFEC;
-}
-.table__tbody {
-  border: 1px solid green;
-}
-.table__td {
-  border: 1px solid orange;
+  border: 1px solid white;
+  padding: 22px 15px;
   text-align: center;
 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffcfec;
+}
+
+.table__td {
+  border: 1px solid white;
+  text-align: center;
+  padding: 22px 15px;
 }
 
 .table__tr:nth-child(even) {
@@ -352,8 +348,67 @@ color: #FFCFEC;
   text-align: left;
 }
 
-
-
+/* ========================================= cases ============================================= */
+.main__our-cases {
+}
+.our-cases__container {
+}
+.our-cases__description-block {
+  padding: 60px 100px;
+}
+.description-block__title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 39px;
+  line-height: 62px;
+}
+.description-block__description {
+  text-align: center;
+  font-size: 12px;
+}
+.our-cases__example-project {
+  background-color: #5d5366;
+  border: 1 px solid white;
+  border-radius: 20px;
+  padding: 50px;
+}
+.example-project__slider {
+ }
+.example-project__vignette {
+  display: flex;
+}
+.vignette__slider-image {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* width: 955px;
+  height: 284px; */
+  padding: 0 240px;
+  border: 2px solid black;
+  
+}
+.slider-image {
+}
+.vignette__description {
+  padding: 40px;
+}
+.description__vignette-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 39px;
+  line-height: 62px;
+  padding: 20px 0;
+}
+.description__vignette-text {
+}
+.example-project__full-description {
+  display: flex;
+  padding: 40px 0;
+}
+.full-description__parts{
+  padding: 0px 10px 0px 0px;
+}
 
 
 .footer {
