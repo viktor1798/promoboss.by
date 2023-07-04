@@ -456,6 +456,7 @@ body {
 /* =================================contacts============================== */
 
 .main__our-contacts {
+  padding: 0px 0px 50px 0px;
 }
 .our-contacts__container {
 }
